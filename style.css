@@ -1,0 +1,159 @@
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 440px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 18% 16% 16% 17% / 30% 19% 18% 21%;
+    background-color: #FFE53B;
+background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+
+    }
+
+body{   
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./images/fundos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: auto;
+   
+}
+
+.quantidade{
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    margin-left: 130px;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+   }
+   
+   button.learn-more {
+    width: 12rem;
+    height: auto;
+   }
+   
+   button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+   }
+   
+   button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+   }
+   
+   button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+   
+   button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+   }
+   
+   button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+   }
+   
+   button:hover .circle {
+    width: 100%;
+   }
+   
+   button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+   }
+   
+   button:hover .button-text {
+    color: #fff;
+   }
+
+h1{ text-align: center;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+input{
+    text-align: center;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.input {
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    border-radius: 89% 29% 90% 23% / 0% 100% 0% 100%;
+    border-color: transparent;
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    font-family: inherit;
+    box-shadow: 23px 23px 46px #bebebe,
+               -23px -23px 46px #ffffff;
+  }
+  
+  .input::placeholder {
+    color: black;
+    font-size: large;
+  }
